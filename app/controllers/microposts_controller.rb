@@ -3,7 +3,6 @@ class MicropostsController < ApplicationController
   # GET /microposts.xml
   def index
     @microposts = Micropost.all
-    end
   end
 
   # GET /microposts/1
